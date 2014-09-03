@@ -1,32 +1,18 @@
-package lab1;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
-import java.util.HashSet;
-import java.util.Set;
+package lab2;
 
 /**
  *
  * @author Erik
  */
-public class Lab1Start {
- 
-    /**
-     * This method of inheritance is extremely useful because I was able to eliminate
-     * many lines of code that were being reused multiple times. This makes the
-     * classes much simpler and allows me to provide a template for the subclasses
-     * to follow. Also, adding on more Course classes would be very easy and not
-     * as time consuming as it would have been before using inheritance.
-     * 
-     */
+public class Lab2Start {
     
     public static void main(String[] args) {
-        
-        /**
-         * Using this method of instantiation is helpful because it allows for 
-         * any subclass of JavaCourse to be instantiated instead of a specific one.
-         * Also, any of the super classes properties and methods can be used and 
-         * if the subclass methods were needed, it is simple enough to cast them
-         * into their correct type.
-         */
         
         JavaCourse course1 = new AdvancedJavaCourse("Advanced Java", "152-129");
         JavaCourse course2 = new IntroJavaCourse("Intro to Java", "152-526");

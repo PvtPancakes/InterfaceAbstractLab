@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroToProgrammingCourse {
+public class IntroToProgrammingCourse implements JavaCourse{
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -56,6 +56,10 @@ public class IntroToProgrammingCourse {
         }
         this.courseName = courseName;
     }
-
+    
+    @Override
+    public String toString(){
+        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getCourseNumber();
+    }
     
 }

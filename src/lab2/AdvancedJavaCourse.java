@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse {
+public class AdvancedJavaCourse implements JavaCourse{
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -70,6 +70,13 @@ public class AdvancedJavaCourse {
         }
         this.courseName = courseName;
     }
-
     
+    public String getCapitalizedCourseName() {
+        return this.getCourseName().toUpperCase();
+    }
+
+    @Override
+    public String toString(){
+        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getPrerequisites() + ", " + getCourseNumber() + ", " + getCapitalizedCourseName();
+    }
 }
