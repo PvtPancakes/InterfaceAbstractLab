@@ -36,6 +36,6 @@ public class AdvancedJavaCourse extends JavaCourse {
 
     @Override
     public String toString(){
-        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getPrerequisites() + ", " + getCourseNumber();
+        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getPrerequisites() + ", " + getCourseNumber() + ", " + getCapitalizedCourseName();
     }
 }
