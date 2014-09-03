@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroToProgrammingCourse extends JavaCourse {
+public class IntroToProgrammingCourse extends Course {
 
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         setCourseName(courseName);

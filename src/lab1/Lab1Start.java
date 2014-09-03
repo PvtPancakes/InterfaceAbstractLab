@@ -28,9 +28,9 @@ public class Lab1Start {
          * into their correct type.
          */
         
-        JavaCourse course1 = new AdvancedJavaCourse("Advanced Java", "152-129");
-        JavaCourse course2 = new IntroJavaCourse("Intro to Java", "152-526");
-        JavaCourse course3 = new IntroToProgrammingCourse("Intro to Programming", "152-846");
+        Course course1 = new AdvancedJavaCourse("Advanced Java", "152-129");
+        Course course2 = new IntroJavaCourse("Intro to Java", "152-526");
+        Course course3 = new IntroToProgrammingCourse("Intro to Programming", "152-846");
         
         course1.setCredits(3);
         course2.setCredits(4);

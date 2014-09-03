@@ -10,7 +10,7 @@ package lab2;
  *
  * @author Erik
  */
-public interface JavaCourse {
+public interface Course {
    
     public abstract String getCourseNumber();
     public abstract String getCourseName();
