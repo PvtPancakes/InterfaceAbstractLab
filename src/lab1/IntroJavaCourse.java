@@ -25,7 +25,7 @@ public class IntroJavaCourse extends JavaCourse {
     
     @Override
     public String toString(){
-        return "";
+        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getPrerequisites() + ", " + getCourseNumber();
     }
     
 }
