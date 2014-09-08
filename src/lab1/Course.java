@@ -57,6 +57,8 @@ public abstract class Course {
         this.credits = credits;
     }
     
+    public abstract void createCourse(int credits, String prerequisites);
+
     @Override
     public abstract String toString();
 }

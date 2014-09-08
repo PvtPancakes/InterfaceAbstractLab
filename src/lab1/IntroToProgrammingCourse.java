@@ -18,7 +18,13 @@ public class IntroToProgrammingCourse extends Course {
     
     @Override
     public String toString(){
-        return "Class: " + getCourseName() + ", " + getCredits() + ", " + getCourseNumber();
+        return "Class: " + getCourseName() + ", " + getCredits() + ", " + 
+                getCourseNumber();
     }
     
+    @Override
+    public void createCourse(int credits, String prerequisites) {
+        setCredits(credits);
+        System.out.println(this.toString());
+    }
 }

@@ -32,19 +32,9 @@ public class Lab1Start {
         Course course2 = new IntroJavaCourse("Intro to Java", "152-526");
         Course course3 = new IntroToProgrammingCourse("Intro to Programming", "152-846");
         
-        course1.setCredits(3);
-        course2.setCredits(4);
-        course3.setCredits(2);
-        
-        AdvancedJavaCourse advJavaCourse = (AdvancedJavaCourse)course1;
-        IntroJavaCourse introJavaCourse = (IntroJavaCourse)course2;
-        
-        advJavaCourse.setPrerequisites("Intro To Programming");
-        introJavaCourse.setPrerequisites("Intro To Programming");
-        
-        System.out.println(course1.toString());
-        System.out.println(course2.toString());
-        System.out.println(course3.toString());
+        course1.createCourse(3,"Intro To Programming");
+        course2.createCourse(4,"Intro To Programming");
+        course3.createCourse(2,"");
         
     }
     
